@@ -1888,3 +1888,5 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact uk.ltd.getahe
 2016-04-01 21:42:47,710 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B findbugs:findbugs
 2016-04-01 21:44:24,616 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
 2016-04-01 21:44:24,617 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B findbugs:gui
+2016-04-01 21:51:40,598 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@4033e209{HTTP/1.1}{127.0.0.1:0}
+2016-04-01 21:51:40,617 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4fcc30f{/help,null,UNAVAILABLE}
