@@ -1602,3 +1602,289 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact uk.ltd.getahe
 2016-04-01 20:03:30,880 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
 2016-04-01 20:03:30,946 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
 2016-04-01 20:03:30,950 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B jetty:run
+2016-04-01 20:25:54,155 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:25:54,157 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:25:54,162 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:25:54,165 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:27:05,870 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-01 20:27:22,589 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 20:27:22,594 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B versions:display-dependency-updates
+2016-04-01 20:35:46,564 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-01 20:36:27,317 [Worker-63] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 20:36:27,317 [Worker-63] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B versions:use-latest-releases 
+2016-04-01 20:37:55,110 [Worker-66] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.1-SNAPSHOT @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:38:02,759 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/junit/junit/4.12/junit-4.12.pom
+2016-04-01 20:38:02,957 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/junit/junit/4.12/junit-4.12.pom
+2016-04-01 20:38:03,504 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.pom
+2016-04-01 20:38:03,776 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.pom
+2016-04-01 20:38:06,342 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/glassfish/api/api/1/api-1.pom
+2016-04-01 20:38:06,589 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/glassfish/api/api/1/api-1.pom
+2016-04-01 20:38:13,855 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/glassfish/pom/2/pom-2.pom
+2016-04-01 20:38:14,386 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/glassfish/pom/2/pom-2.pom
+2016-04-01 20:38:18,816 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/javax/servlet/jsp-api/2.0.public_draft/jsp-api-2.0.public_draft.pom
+2016-04-01 20:38:19,062 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/javax/servlet/jsp-api/2.0.public_draft/jsp-api-2.0.public_draft.pom
+2016-04-01 20:38:19,580 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/javax/servlet/servlet-api/2.4.public_draft/servlet-api-2.4.public_draft.pom
+2016-04-01 20:38:19,714 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/javax/servlet/servlet-api/2.4.public_draft/servlet-api-2.4.public_draft.pom
+2016-04-01 20:38:31,817 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/commons-fileupload/commons-fileupload/1.3.1-jenkins-1/commons-fileupload-1.3.1-jenkins-1.pom
+2016-04-01 20:38:39,207 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/commons-fileupload/commons-fileupload/1.3.1-jenkins-1/commons-fileupload-1.3.1-jenkins-1.pom
+2016-04-01 20:38:40,120 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/commons-logging/commons-logging/99.0-does-not-exist/commons-logging-99.0-does-not-exist.pom
+2016-04-01 20:38:40,473 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/commons-logging/commons-logging/99.0-does-not-exist/commons-logging-99.0-does-not-exist.pom
+2016-04-01 20:39:49,537 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/log4j/log4j/1.2.17-atlassian-1/log4j-1.2.17-atlassian-1.pom
+2016-04-01 20:39:50,164 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/uk/ltd/getahead/dwr/1.1.1/dwr-1.1.1.pom
+2016-04-01 20:39:50,236 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/uk/ltd/getahead/dwr/1.1.1/dwr-1.1.1.pom
+2016-04-01 20:39:50,741 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/junit/junit/4.12/junit-4.12.jar
+2016-04-01 20:39:51,420 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/junit/junit/4.12/junit-4.12.jar
+2016-04-01 20:39:51,443 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2016-04-01 20:39:51,720 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+2016-04-01 20:39:52,248 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.jar
+2016-04-01 20:39:53,252 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/javax/servlet/servlet-api/3.0-alpha-1/servlet-api-3.0-alpha-1.jar
+2016-04-01 20:40:18,013 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/javax/servlet/jsp-api/2.0.public_draft/jsp-api-2.0.public_draft.jar
+2016-04-01 20:40:56,246 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/commons-fileupload/commons-fileupload/1.3.1-jenkins-1/commons-fileupload-1.3.1-jenkins-1.jar
+2016-04-01 20:41:07,388 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/commons-fileupload/commons-fileupload/1.3.1-jenkins-1/commons-fileupload-1.3.1-jenkins-1.jar
+2016-04-01 20:41:56,712 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/commons-logging/commons-logging/99.0-does-not-exist/commons-logging-99.0-does-not-exist.jar
+2016-04-01 20:42:04,102 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/commons-logging/commons-logging/99.0-does-not-exist/commons-logging-99.0-does-not-exist.jar
+2016-04-01 20:42:23,293 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/log4j/log4j/1.2.17-atlassian-1/log4j-1.2.17-atlassian-1.jar
+2016-04-01 20:42:37,491 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/log4j/log4j/1.2.17-atlassian-1/log4j-1.2.17-atlassian-1.jar
+2016-04-01 20:42:37,895 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/uk/ltd/getahead/dwr/1.1.1/dwr-1.1.1.jar
+2016-04-01 20:42:51,444 [Worker-66] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/uk/ltd/getahead/dwr/1.1.1/dwr-1.1.1.jar
+2016-04-01 20:42:52,629 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:42:52,634 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:42:52,638 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:42:52,641 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:42:52,641 [Worker-66] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:42:52,644 [Worker-66] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:42:52,647 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:42:54,133 [Worker-65] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.2 @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:42:54,953 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:42:54,954 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:42:54,955 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:42:54,955 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:42:54,955 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:42:54,958 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:42:54,961 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:43:21,457 [Worker-65] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.2 @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:43:22,119 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:43:22,123 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:43:22,126 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:43:22,129 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:43:22,129 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:43:22,131 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:43:22,134 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:43:23,523 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:43:23,525 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 20:43:23,543 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:43:23,543 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:44:05,534 [Worker-64] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.2 @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:44:06,038 [Worker-64] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2016-04-01 20:44:06,751 [Worker-64] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2016-04-01 20:44:06,804 [Worker-64] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/commons/commons-parent/34/commons-parent-34.pom
+2016-04-01 20:44:10,012 [Worker-64] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/commons/commons-parent/34/commons-parent-34.pom
+2016-04-01 20:44:10,615 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:44:10,619 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:44:10,622 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:44:10,625 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:44:10,625 [Worker-64] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:44:10,627 [Worker-64] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:44:10,630 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:44:11,977 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:44:11,978 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:44:11,979 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:44:11,979 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:44:18,319 [Worker-59] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-04-01 20:44:18,676 [Worker-59] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.2 @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:44:19,253 [Worker-59] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2016-04-01 20:44:29,738 [Worker-59] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2016-04-01 20:44:30,110 [Worker-59] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /struts02/src/main/java
+2016-04-01 20:44:30,113 [Worker-59] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /struts02/src/main/resources
+2016-04-01 20:44:30,116 [Worker-59] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /struts02/src/test/java
+2016-04-01 20:44:30,362 [Worker-59] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for struts02
+2016-04-01 20:44:30,370 [Worker-59] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 12 sec
+2016-04-01 20:44:30,804 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:44:30,807 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 20:44:30,822 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:44:30,825 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:44:30,825 [Worker-57] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:44:30,827 [Worker-57] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:44:30,831 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:44:56,483 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:44:56,485 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:44:56,489 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:44:56,489 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:45:03,321 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 20:45:03,322 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-04-01 20:45:04,858 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:45:04,865 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 20:45:04,882 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:45:04,882 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:45:04,885 [Worker-63] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:45:04,885 [Worker-63] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:45:04,887 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:45:29,707 [Worker-64] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.2 @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:45:30,504 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:45:30,508 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:45:30,512 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:45:30,512 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:45:30,515 [Worker-64] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:45:30,515 [Worker-64] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:45:30,518 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:46:44,772 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/maven/plugins/maven-compiler-plugin/3.3/maven-compiler-plugin-3.3.jar
+2016-04-01 20:46:47,090 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/maven/plugins/maven-compiler-plugin/3.3/maven-compiler-plugin-3.3.jar
+2016-04-01 20:46:47,451 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/maven/plugins/maven-compiler-plugin/3.3/maven-compiler-plugin-3.3.pom
+2016-04-01 20:46:47,621 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/maven/plugins/maven-compiler-plugin/3.3/maven-compiler-plugin-3.3.pom
+2016-04-01 20:46:47,660 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/maven/plugins/maven-plugins/27/maven-plugins-27.pom
+2016-04-01 20:46:47,717 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/maven/plugins/maven-plugins/27/maven-plugins-27.pom
+2016-04-01 20:46:47,743 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/maven/maven-parent/26/maven-parent-26.pom
+2016-04-01 20:46:47,863 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/maven/maven-parent/26/maven-parent-26.pom
+2016-04-01 20:46:47,888 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/apache/16/apache-16.pom
+2016-04-01 20:46:47,947 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/apache/16/apache-16.pom
+2016-04-01 20:46:48,065 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+2016-04-01 20:46:48,098 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.pom
+2016-04-01 20:46:48,161 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/maven/shared/maven-shared-utils/0.7/maven-shared-utils-0.7.pom
+2016-04-01 20:46:48,189 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/maven/shared/maven-shared-utils/0.7/maven-shared-utils-0.7.pom
+2016-04-01 20:46:48,216 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/maven/shared/maven-shared-components/20/maven-shared-components-20.pom
+2016-04-01 20:46:48,246 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/maven/shared/maven-shared-components/20/maven-shared-components-20.pom
+2016-04-01 20:46:48,271 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/maven/maven-parent/24/maven-parent-24.pom
+2016-04-01 20:46:48,425 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/maven/maven-parent/24/maven-parent-24.pom
+2016-04-01 20:46:48,456 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/apache/14/apache-14.pom
+2016-04-01 20:46:48,502 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/apache/14/apache-14.pom
+2016-04-01 20:46:48,555 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler-api/2.5/plexus-compiler-api-2.5.pom
+2016-04-01 20:46:48,632 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler-api/2.5/plexus-compiler-api-2.5.pom
+2016-04-01 20:46:48,657 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler/2.5/plexus-compiler-2.5.pom
+2016-04-01 20:46:48,744 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler/2.5/plexus-compiler-2.5.pom
+2016-04-01 20:46:48,807 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler-manager/2.5/plexus-compiler-manager-2.5.pom
+2016-04-01 20:46:48,860 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler-manager/2.5/plexus-compiler-manager-2.5.pom
+2016-04-01 20:46:48,897 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler-javac/2.5/plexus-compiler-javac-2.5.pom
+2016-04-01 20:46:48,935 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler-javac/2.5/plexus-compiler-javac-2.5.pom
+2016-04-01 20:46:49,008 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compilers/2.5/plexus-compilers-2.5.pom
+2016-04-01 20:46:49,056 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compilers/2.5/plexus-compilers-2.5.pom
+2016-04-01 20:46:49,201 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+2016-04-01 20:46:49,856 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+2016-04-01 20:46:49,876 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+2016-04-01 20:46:50,069 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/maven/maven-toolchain/2.2.1/maven-toolchain-2.2.1.jar
+2016-04-01 20:46:50,119 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/apache/maven/shared/maven-shared-utils/0.7/maven-shared-utils-0.7.jar
+2016-04-01 20:46:51,066 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/apache/maven/shared/maven-shared-utils/0.7/maven-shared-utils-0.7.jar
+2016-04-01 20:46:51,141 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler-api/2.5/plexus-compiler-api-2.5.jar
+2016-04-01 20:46:51,313 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler-api/2.5/plexus-compiler-api-2.5.jar
+2016-04-01 20:46:51,423 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler-manager/2.5/plexus-compiler-manager-2.5.jar
+2016-04-01 20:46:51,478 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler-manager/2.5/plexus-compiler-manager-2.5.jar
+2016-04-01 20:46:51,905 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler-javac/2.5/plexus-compiler-javac-2.5.jar
+2016-04-01 20:46:52,003 [Worker-65] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/plexus/plexus-compiler-javac/2.5/plexus-compiler-javac-2.5.jar
+2016-04-01 20:46:52,888 [Worker-65] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.2 @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:46:53,536 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:46:53,540 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:46:53,544 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:46:53,544 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:46:53,546 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:46:53,546 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:46:53,551 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:46:54,938 [Worker-69] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.2 @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:46:55,647 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:46:55,648 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:46:55,652 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:46:55,652 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:46:55,655 [Worker-69] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:46:55,655 [Worker-69] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:46:55,660 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:47:06,451 [Worker-68] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-04-01 20:47:06,767 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.2 @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:47:06,871 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/log4j/log4j/1.2.17-atlassian-1/log4j-1.2.17-atlassian-1.pom
+2016-04-01 20:47:13,545 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/log4j/log4j/1.2.17-atlassian-1/log4j-1.2.17-atlassian-1.pom
+2016-04-01 20:47:14,276 [Worker-68] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /struts02/src/main/java
+2016-04-01 20:47:14,279 [Worker-68] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /struts02/src/main/resources
+2016-04-01 20:47:14,282 [Worker-68] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /struts02/src/test/java
+2016-04-01 20:47:14,560 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for struts02
+2016-04-01 20:47:14,584 [Worker-68] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2016-04-01 20:47:15,077 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:47:15,078 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 20:47:15,097 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:47:15,097 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:47:15,097 [Worker-66] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:47:15,097 [Worker-66] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:47:15,103 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:48:07,857 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.2 @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:48:07,979 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+2016-04-01 20:48:07,987 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+2016-04-01 20:48:07,996 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+2016-04-01 20:48:08,003 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+2016-04-01 20:48:08,596 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:48:08,597 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:48:08,601 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:48:08,602 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:48:08,602 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:48:08,602 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:48:08,610 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+2016-04-01 20:48:08,617 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+2016-04-01 20:48:08,624 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+2016-04-01 20:48:08,631 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+2016-04-01 20:48:08,638 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:48:18,146 [Worker-64] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.2 @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:48:18,274 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+2016-04-01 20:48:18,281 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+2016-04-01 20:48:18,290 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+2016-04-01 20:48:18,297 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+2016-04-01 20:48:18,860 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:48:18,861 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:48:18,865 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:48:18,865 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:48:18,865 [Worker-64] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:48:18,866 [Worker-64] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:48:18,872 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+2016-04-01 20:48:18,876 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+2016-04-01 20:48:18,881 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+2016-04-01 20:48:18,886 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+2016-04-01 20:48:18,891 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:48:33,021 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-01 20:48:47,624 [Worker-69] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 20:48:47,624 [Worker-69] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B findbugs:gui
+2016-04-01 20:50:18,963 [Worker-68] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.2 @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:50:49,302 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/mojo/findbugs-maven-plugin/3.0.4/findbugs-maven-plugin-3.0.4.pom
+2016-04-01 20:50:49,316 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 is missing, no dependency information available
+2016-04-01 20:51:10,833 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/mojo/findbugs-maven-plugin/3.0.4/findbugs-maven-plugin-3.0.4.jar
+2016-04-01 20:51:10,848 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4 or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 in nexus-osc (http://maven.oschina.net/content/groups/public/)
+2016-04-01 20:51:10,865 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 is missing, no dependency information available
+2016-04-01 20:51:10,881 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4 or one of its dependencies could not be resolved: Failure to find org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 in http://maven.oschina.net/content/groups/public/ was cached in the local repository, resolution will not be reattempted until the update interval of nexus-osc has elapsed or updates are forced
+2016-04-01 20:51:11,499 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:51:11,505 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:51:11,506 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:51:11,506 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:51:11,506 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:51:11,510 [Worker-68] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:51:11,512 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 is missing, no dependency information available
+2016-04-01 20:51:11,516 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4 or one of its dependencies could not be resolved: Cannot access nexus-osc (http://maven.oschina.net/content/groups/public/) in offline mode and the artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 has not been downloaded from it before.
+2016-04-01 20:51:11,521 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 is missing, no dependency information available
+2016-04-01 20:51:11,530 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4 or one of its dependencies could not be resolved: Cannot access nexus-osc (http://maven.oschina.net/content/groups/public/) in offline mode and the artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 has not been downloaded from it before.
+2016-04-01 20:51:11,536 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:52:20,089 [Worker-65] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 20:52:20,090 [Worker-65] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B findbugs:gui
+2016-04-01 20:52:31,059 [Worker-69] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.2 @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:52:38,460 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/codehaus/mojo/findbugs-maven-plugin/3.0.1/findbugs-maven-plugin-3.0.1.pom
+2016-04-01 20:52:38,714 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/mojo/findbugs-maven-plugin/3.0.1/findbugs-maven-plugin-3.0.1.pom
+2016-04-01 20:52:39,110 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/org/codehaus/mojo/findbugs-maven-plugin/3.0.1/findbugs-maven-plugin-3.0.1.jar
+2016-04-01 20:52:43,349 [Worker-69] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/org/codehaus/mojo/findbugs-maven-plugin/3.0.1/findbugs-maven-plugin-3.0.1.jar
+2016-04-01 20:52:44,129 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:52:44,130 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:52:44,131 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:52:44,134 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:52:44,137 [Worker-69] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:52:44,139 [Worker-69] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:52:44,142 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:52:46,215 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 20:52:46,215 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B findbugs:gui
+2016-04-01 21:40:57,145 [Worker-69] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 21:40:57,145 [Worker-69] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B findbugs:gui
+2016-04-01 21:41:19,749 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2016-04-01 21:41:29,079 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 21:41:29,079 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B findbugs:findbugs
+2016-04-01 21:42:18,185 [Worker-68] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 21:42:18,189 [Worker-68] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean
+2016-04-01 21:42:19,829 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 21:42:19,837 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 21:42:19,873 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 21:42:19,877 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 21:42:19,877 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 21:42:19,877 [Worker-65] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 21:42:19,880 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 21:42:47,710 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 21:42:47,710 [Worker-57] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B findbugs:findbugs
+2016-04-01 21:44:24,616 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 21:44:24,617 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B findbugs:gui

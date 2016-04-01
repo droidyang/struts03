@@ -5371,3 +5371,75 @@ java.net.ConnectException: Connection timed out: connect
 	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:07.979
+!MESSAGE The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:07.990
+!MESSAGE Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:07.996
+!MESSAGE The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:08.006
+!MESSAGE Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:08.610
+!MESSAGE The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:08.617
+!MESSAGE Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:08.624
+!MESSAGE The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:08.631
+!MESSAGE Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:18.274
+!MESSAGE The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:18.284
+!MESSAGE Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:18.290
+!MESSAGE The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:18.300
+!MESSAGE Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:18.872
+!MESSAGE The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:18.877
+!MESSAGE Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:18.881
+!MESSAGE The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:48:18.886
+!MESSAGE Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4-SNAPSHOT or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:50:49.324
+!MESSAGE The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:51:10.855
+!MESSAGE Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4 or one of its dependencies could not be resolved: Could not find artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 in nexus-osc (http://maven.oschina.net/content/groups/public/)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:51:10.872
+!MESSAGE The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:51:10.881
+!MESSAGE Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4 or one of its dependencies could not be resolved: Failure to find org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 in http://maven.oschina.net/content/groups/public/ was cached in the local repository, resolution will not be reattempted until the update interval of nexus-osc has elapsed or updates are forced
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:51:11.512
+!MESSAGE The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:51:11.517
+!MESSAGE Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4 or one of its dependencies could not be resolved: Cannot access nexus-osc (http://maven.oschina.net/content/groups/public/) in offline mode and the artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 has not been downloaded from it before.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:51:11.526
+!MESSAGE The POM for org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-04-01 20:51:11.531
+!MESSAGE Failed to retrieve plugin descriptor for org.codehaus.mojo:findbugs-maven-plugin:3.0.4: Plugin org.codehaus.mojo:findbugs-maven-plugin:3.0.4 or one of its dependencies could not be resolved: Cannot access nexus-osc (http://maven.oschina.net/content/groups/public/) in offline mode and the artifact org.codehaus.mojo:findbugs-maven-plugin:jar:3.0.4 has not been downloaded from it before.
