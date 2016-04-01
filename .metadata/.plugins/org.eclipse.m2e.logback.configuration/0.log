@@ -1440,3 +1440,165 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact uk.ltd.getahe
 2016-04-01 19:26:14,451 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
 2016-04-01 19:26:14,505 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
 2016-04-01 19:26:14,505 [Worker-10] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B jetty:run
+2016-04-01 19:28:21,045 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:28:21,047 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 19:28:21,053 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:28:21,053 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:28:46,527 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:28:46,528 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:28:46,529 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:28:46,529 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:30:04,132 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:30:04,137 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:30:04,142 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:30:04,142 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:30:14,146 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:30:14,147 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:30:14,148 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:30:14,148 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:30:33,031 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:30:33,036 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 19:30:33,042 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:30:33,042 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:45:05,466 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:45:05,471 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 19:45:05,473 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:45:05,473 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:46:07,832 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:46:07,837 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 19:46:07,843 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:46:07,843 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:46:20,226 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:46:20,227 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 19:46:20,228 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:46:20,228 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:47:17,295 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.1-SNAPSHOT @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 19:47:17,572 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2016-04-01 19:47:17,605 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2016-04-01 19:47:17,690 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.oschina.net/content/groups/public/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
+2016-04-01 19:47:18,340 [Worker-29] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.oschina.net/content/groups/public/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
+2016-04-01 19:47:19,180 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:47:19,182 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:47:19,183 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:47:19,186 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:47:19,189 [Worker-29] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 19:47:19,191 [Worker-29] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 19:47:19,195 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:47:20,516 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:47:20,517 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 19:47:20,536 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:47:20,536 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:47:32,465 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-04-01 19:47:32,844 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.1-SNAPSHOT @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 19:47:33,756 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /struts02/src/main/java
+2016-04-01 19:47:33,756 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /struts02/src/main/resources
+2016-04-01 19:47:33,760 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /struts02/src/test/java
+2016-04-01 19:47:34,368 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for struts02
+2016-04-01 19:47:34,376 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2016-04-01 19:47:34,856 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:47:34,860 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 19:47:34,873 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:47:34,875 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:47:34,876 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 19:47:34,879 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 19:47:34,882 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:47:35,837 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:47:35,839 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:47:35,840 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:47:35,840 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:48:27,472 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:48:27,473 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:48:27,477 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:48:27,477 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:51:02,315 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:51:02,316 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:51:02,323 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:51:02,329 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:51:17,201 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:51:17,203 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:51:17,211 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:51:17,215 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:51:41,814 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:51:41,815 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:51:41,823 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:51:41,826 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:51:48,567 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:51:48,567 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:51:48,576 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:51:48,581 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:52:03,031 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:52:03,032 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:52:03,054 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:52:03,057 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:52:09,948 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:52:09,948 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:52:09,960 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:52:09,969 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:52:35,264 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:52:35,265 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 19:52:35,277 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 19:52:35,284 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 19:57:03,157 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2016-04-01 19:57:03,221 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 19:57:03,224 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B jetty:run
+2016-04-01 20:00:59,637 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:00:59,641 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:00:59,646 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:00:59,649 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:01:05,120 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:01:05,120 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:01:05,121 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:01:05,125 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:01:11,665 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:01:11,669 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:01:11,674 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:01:11,678 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:01:52,797 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:01:52,797 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:01:52,798 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:01:52,805 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:02:47,506 [Worker-43] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.1-SNAPSHOT @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:02:48,239 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:48,244 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-04-01 20:02:48,248 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:48,248 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:02:48,252 [Worker-43] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:02:48,252 [Worker-43] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:02:48,258 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:49,731 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:49,733 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 20:02:49,747 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:49,747 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:02:50,781 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:50,782 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 20:02:50,788 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:50,791 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:02:51,871 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:51,878 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 20:02:51,892 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:51,896 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:02:52,925 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:52,926 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 20:02:52,938 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:52,942 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:02:53,998 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:54,001 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 20:02:54,013 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:02:54,015 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:03:26,514 [Worker-43] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-04-01 20:03:26,855 [Worker-43] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.droid.web.start.strutsapp:struts02:0.0.1-SNAPSHOT @ C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\pom.xml.
+2016-04-01 20:03:27,565 [Worker-43] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /struts02/src/main/java
+2016-04-01 20:03:27,568 [Worker-43] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /struts02/src/main/resources
+2016-04-01 20:03:27,571 [Worker-43] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /struts02/src/test/java
+2016-04-01 20:03:27,868 [Worker-43] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for struts02
+2016-04-01 20:03:27,873 [Worker-43] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2016-04-01 20:03:28,384 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:03:28,385 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2016-04-01 20:03:28,398 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:03:28,398 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02\src\test\resources
+2016-04-01 20:03:28,401 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of struts02
+2016-04-01 20:03:28,402 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for struts02
+2016-04-01 20:03:28,406 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-04-01 20:03:30,880 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2016-04-01 20:03:30,946 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\yangb_h6ek3yh\Documents\GitHub\struts03\struts02
+2016-04-01 20:03:30,950 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B jetty:run

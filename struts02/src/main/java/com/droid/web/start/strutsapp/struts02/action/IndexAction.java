@@ -17,18 +17,16 @@ package com.droid.web.start.strutsapp.struts02.action;
 
 import com.opensymphony.xwork2.ActionSupport;
 import java.util.Date;
-import com.opensymphony.xwork2.conversion.annotations.Conversion;
 import com.opensymphony.xwork2.conversion.annotations.TypeConversion;
 import org.apache.struts2.convention.annotation.Action;
 import org.apache.struts2.convention.annotation.Actions;
 import org.apache.struts2.convention.annotation.Result;
-import org.apache.struts2.convention.annotation.Results;
 
 
 @Result(name="success",location="jsp/index.jsp")
 public class IndexAction extends ActionSupport {
-    
-    private Date now = new Date(System.currentTimeMillis());
+	private static final long serialVersionUID = 7630529800199709824L;
+	private Date now = new Date(System.currentTimeMillis());
     
     @TypeConversion(converter = "com.droid.web.start.strutsapp.struts02.DateConverter")
     public Date getDateNow() { return now; }

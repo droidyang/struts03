@@ -31,8 +31,9 @@ import org.apache.struts2.convention.annotation.Results;
     @Result(name="success",location="jsp/helloWorld.jsp")
 })
 public class WelcomeAction extends ActionSupport {
-    
-    private Date now;
+
+	private static final long serialVersionUID = 215369968665891950L;
+	private Date now;
     private String name;
     
     @TypeConversion(converter = "com.droid.web.start.strutsapp.struts02.DateConverter")
