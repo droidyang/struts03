@@ -39,12 +39,12 @@
             	<decorator:body/>
                 <hr />
             </div>
-            
+     <!--            
             <div id="sub">
             	<h3>Sub Content</h3>
             </div>
             
-            
+     
             <div id="local">
                 <h3>Local Nav. Bar</h3>
                 <ul>
@@ -56,7 +56,7 @@
                     <li><a href="#">Content page 6</a></li>
                 </ul>
             </div>
-            
+           
             
             <div id="nav">
                 <div class="wrapper">
@@ -64,16 +64,13 @@
                 <ul class="clearfix">
                      <li><a href="#">Menu 1</a></li>
                      <li><a href="#">Menu 2</a></li>
-                     <li><a href="#">Menu 3</a></li>
-                     <li><a href="#">Menu 4</a></li>
-                     <li><a href="#">Menu 5</a></li>
                      <li class="last"><a href="#">Menu 6</a></li>
                 </ul>
                 </div>
                 <hr />
             </div>
         </div>
-        
+          -->   
         <div id="footer" class="clearfix">
             Footer
         </div>

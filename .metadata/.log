@@ -4006,3 +4006,890 @@ Caused by: java.io.IOException: 另一个程序已锁定文件的一部分，进
 	at org.eclipse.jgit.internal.storage.file.ObjectDirectoryInserter.insert(ObjectDirectoryInserter.java:103)
 	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:187)
 	... 7 more
+
+!ENTRY org.springframework.ide.eclipse.boot 4 0 2016-04-01 18:39:52.251
+!MESSAGE HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02 [in src/main/java [in struts02]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02 [in src/main/java [in struts02]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:923)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:608)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:130)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:200)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:1)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator$ValidationVisitor.visit(AbstractValidator.java:280)
+	at org.springframework.ide.eclipse.core.model.AbstractModelElement.accept(AbstractModelElement.java:131)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:104)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$7.execute(SpringProjectContributionManager.java:260)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$9.run(SpringProjectContributionManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.execute(SpringProjectContributionManager.java:294)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.runValidator(SpringProjectContributionManager.java:257)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.build(SpringProjectContributionManager.java:131)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2016-04-01 18:39:52.253
+!MESSAGE HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02 [in src/main/java [in struts02]]] does not exist
+
+!ENTRY org.springframework.ide.eclipse.boot 4 0 2016-04-01 18:39:54.751
+!MESSAGE IndexAction.java [in com.droid.web.start.strutsapp.struts02 [in src/main/java [in struts02]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [IndexAction.java [in com.droid.web.start.strutsapp.struts02 [in src/main/java [in struts02]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:923)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:608)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:130)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:200)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:1)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator$ValidationVisitor.visit(AbstractValidator.java:280)
+	at org.springframework.ide.eclipse.core.model.AbstractModelElement.accept(AbstractModelElement.java:131)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:104)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$7.execute(SpringProjectContributionManager.java:260)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$9.run(SpringProjectContributionManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.execute(SpringProjectContributionManager.java:294)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.runValidator(SpringProjectContributionManager.java:257)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.build(SpringProjectContributionManager.java:131)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2016-04-01 18:39:54.751
+!MESSAGE IndexAction.java [in com.droid.web.start.strutsapp.struts02 [in src/main/java [in struts02]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:40:23.307
+!MESSAGE package com.droid.web.start.strutsapp.struts02 [in [Working copy] IndexAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:41:11.436
+!MESSAGE package com.droid.web.start.strutsapp.struts02 [in [Working copy] HelloWorldActionTest.java [in com.droid.web.start.strutsapp.struts02 [in src/test/java [in struts02]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:41:22.484
+!MESSAGE package com.droid.web.start.strutsapp.struts02 [in [Working copy] IndexActionTest.java [in com.droid.web.start.strutsapp.struts02 [in src/test/java [in struts02]]]] does not exist
+
+!ENTRY org.springframework.ide.eclipse.boot 4 0 2016-04-01 18:41:38.402
+!MESSAGE HelloWorldActionTest.java [in com.droid.web.start.strutsapp.struts02 [in src/test/java [in struts02]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [HelloWorldActionTest.java [in com.droid.web.start.strutsapp.struts02 [in src/test/java [in struts02]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:923)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:608)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:130)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:200)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:1)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator$ValidationVisitor.visit(AbstractValidator.java:280)
+	at org.springframework.ide.eclipse.core.model.AbstractModelElement.accept(AbstractModelElement.java:131)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:104)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$7.execute(SpringProjectContributionManager.java:260)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$9.run(SpringProjectContributionManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.execute(SpringProjectContributionManager.java:294)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.runValidator(SpringProjectContributionManager.java:257)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.build(SpringProjectContributionManager.java:131)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2016-04-01 18:41:38.402
+!MESSAGE HelloWorldActionTest.java [in com.droid.web.start.strutsapp.struts02 [in src/test/java [in struts02]]] does not exist
+
+!ENTRY org.springframework.ide.eclipse.boot 4 0 2016-04-01 18:41:49.269
+!MESSAGE IndexActionTest.java [in com.droid.web.start.strutsapp.struts02 [in src/test/java [in struts02]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [IndexActionTest.java [in com.droid.web.start.strutsapp.struts02 [in src/test/java [in struts02]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:923)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:608)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:130)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:200)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:1)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator$ValidationVisitor.visit(AbstractValidator.java:280)
+	at org.springframework.ide.eclipse.core.model.AbstractModelElement.accept(AbstractModelElement.java:131)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:104)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$7.execute(SpringProjectContributionManager.java:260)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$9.run(SpringProjectContributionManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.execute(SpringProjectContributionManager.java:294)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.runValidator(SpringProjectContributionManager.java:257)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.build(SpringProjectContributionManager.java:131)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2016-04-01 18:41:49.269
+!MESSAGE IndexActionTest.java [in com.droid.web.start.strutsapp.struts02 [in src/test/java [in struts02]]] does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:43:46.537
+!MESSAGE Could not download sources for junit:junit:3.8.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact junit:junit:jar:javadoc:3.8.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing junit:junit:jar:javadoc:3.8.1
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:43:46.538
+!MESSAGE Could not resolve artifact junit:junit:jar:javadoc:3.8.1
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:43:46.538
+!MESSAGE Missing junit:junit:jar:javadoc:3.8.1
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:47:41.692
+!MESSAGE Could not download sources for asm:asm:3.3
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact asm:asm:jar:javadoc:3.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing asm:asm:jar:javadoc:3.3
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:47:41.692
+!MESSAGE Could not resolve artifact asm:asm:jar:javadoc:3.3
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:47:41.692
+!MESSAGE Missing asm:asm:jar:javadoc:3.3
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:47:41.796
+!MESSAGE Could not download sources for asm:asm-commons:3.3
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact asm:asm-commons:jar:javadoc:3.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing asm:asm-commons:jar:javadoc:3.3
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:47:41.796
+!MESSAGE Could not resolve artifact asm:asm-commons:jar:javadoc:3.3
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:47:41.796
+!MESSAGE Missing asm:asm-commons:jar:javadoc:3.3
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:47:41.898
+!MESSAGE Could not download sources for asm:asm-tree:3.3
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact asm:asm-tree:jar:javadoc:3.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing asm:asm-tree:jar:javadoc:3.3
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:47:41.899
+!MESSAGE Could not resolve artifact asm:asm-tree:jar:javadoc:3.3
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:47:41.899
+!MESSAGE Missing asm:asm-tree:jar:javadoc:3.3
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:09.672
+!MESSAGE import com.opensymphony.xwork2.conversion.annotations [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:09.730
+!MESSAGE import com.opensymphony.xwork2.conversion.annotation [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:09.782
+!MESSAGE import com.opensymphony.xwork2.conversion.annotatio [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:09.827
+!MESSAGE import com.opensymphony.xwork2.conversion.annotati [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:09.872
+!MESSAGE import com.opensymphony.xwork2.conversion.annotat [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:09.916
+!MESSAGE import com.opensymphony.xwork2.conversion.annota [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:09.958
+!MESSAGE import com.opensymphony.xwork2.conversion.annot [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.001
+!MESSAGE import com.opensymphony.xwork2.conversion.anno [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.041
+!MESSAGE import com.opensymphony.xwork2.conversion.ann [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.083
+!MESSAGE import com.opensymphony.xwork2.conversion.an [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.121
+!MESSAGE import com.opensymphony.xwork2.conversion.a [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.201
+!MESSAGE import com.opensymphony.xwork2.conversion [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.241
+!MESSAGE import com.opensymphony.xwork2.conversio [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.279
+!MESSAGE import com.opensymphony.xwork2.conversi [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.322
+!MESSAGE import com.opensymphony.xwork2.convers [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.362
+!MESSAGE import com.opensymphony.xwork2.conver [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.401
+!MESSAGE import com.opensymphony.xwork2.conve [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.440
+!MESSAGE import com.opensymphony.xwork2.conv [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.478
+!MESSAGE import com.opensymphony.xwork2.con [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.531
+!MESSAGE import com.opensymphony.xwork2.co [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.563
+!MESSAGE import com.opensymphony.xwork2.c [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.626
+!MESSAGE import com.opensymphony.xwork2 [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.658
+!MESSAGE import com.opensymphony.xwork [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.691
+!MESSAGE import com.opensymphony.xwor [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.723
+!MESSAGE import com.opensymphony.xwo [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.753
+!MESSAGE import com.opensymphony.xw [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.782
+!MESSAGE import com.opensymphony.x [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.852
+!MESSAGE import com.opensymphony [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.888
+!MESSAGE import com.opensymphon [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.924
+!MESSAGE import com.opensympho [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:10.975
+!MESSAGE import com.opensymph [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:12.344
+!MESSAGE import com.opensymp [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:12.537
+!MESSAGE import com.opensym [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:12.676
+!MESSAGE import com.opensy [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:12.838
+!MESSAGE import com.opens [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:12.987
+!MESSAGE import com.open [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:13.162
+!MESSAGE import com.ope [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:13.298
+!MESSAGE import com.op [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:13.461
+!MESSAGE import com.o [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:13.787
+!MESSAGE import com [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:14.025
+!MESSAGE import co [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:14.426
+!MESSAGE import c [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:48:15.073
+!MESSAGE Could not download sources for javassist:javassist:3.11.0.GA
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javassist:javassist:jar:javadoc:3.11.0.GA
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing javassist:javassist:jar:javadoc:3.11.0.GA
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:48:15.073
+!MESSAGE Could not resolve artifact javassist:javassist:jar:javadoc:3.11.0.GA
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:48:15.073
+!MESSAGE Missing javassist:javassist:jar:javadoc:3.11.0.GA
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:48:19.654
+!MESSAGE Could not download sources for opensymphony:sitemesh:2.4.2
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact opensymphony:sitemesh:jar:javadoc:2.4.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing opensymphony:sitemesh:jar:javadoc:2.4.2
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:48:19.654
+!MESSAGE Could not resolve artifact opensymphony:sitemesh:jar:javadoc:2.4.2
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:48:19.654
+!MESSAGE Missing opensymphony:sitemesh:jar:javadoc:2.4.2
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:33.998
+!MESSAGE import org.apache.struts2.views.annotations [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:34.243
+!MESSAGE import org.apache.struts2.views.annotation [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:34.404
+!MESSAGE import org.apache.struts2.views.annotatio [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:34.560
+!MESSAGE import org.apache.struts2.views.annotati [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:34.711
+!MESSAGE import org.apache.struts2.views.annotat [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:34.858
+!MESSAGE import org.apache.struts2.views.annota [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:35.011
+!MESSAGE import org.apache.struts2.views.annot [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:35.161
+!MESSAGE import org.apache.struts2.views.anno [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:35.330
+!MESSAGE import org.apache.struts2.views.ann [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:35.461
+!MESSAGE import org.apache.struts2.views.an [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:35.622
+!MESSAGE import org.apache.struts2.views.a [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:35.934
+!MESSAGE import org.apache.struts2.views [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:36.096
+!MESSAGE import org.apache.struts2.view [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:36.279
+!MESSAGE import org.apache.struts2.vie [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:36.449
+!MESSAGE import org.apache.struts2.vi [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:48:37.000
+!MESSAGE import org.apache.struts2.v [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:48:54.149
+!MESSAGE Could not download sources for org.springframework:spring-beans:3.0.5.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-beans:jar:javadoc:3.0.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing org.springframework:spring-beans:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:48:54.149
+!MESSAGE Could not resolve artifact org.springframework:spring-beans:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:48:54.149
+!MESSAGE Missing org.springframework:spring-beans:jar:javadoc:3.0.5.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:49:05.736
+!MESSAGE Could not download sources for org.springframework:spring-core:3.0.5.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-core:jar:javadoc:3.0.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing org.springframework:spring-core:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:05.737
+!MESSAGE Could not resolve artifact org.springframework:spring-core:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:05.737
+!MESSAGE Missing org.springframework:spring-core:jar:javadoc:3.0.5.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:49:10.562
+!MESSAGE Could not download sources for org.springframework:spring-asm:3.0.5.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-asm:jar:javadoc:3.0.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing org.springframework:spring-asm:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:10.562
+!MESSAGE Could not resolve artifact org.springframework:spring-asm:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:10.562
+!MESSAGE Missing org.springframework:spring-asm:jar:javadoc:3.0.5.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:49:21.237
+!MESSAGE Could not download sources for org.springframework:spring-context:3.0.5.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-context:jar:javadoc:3.0.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing org.springframework:spring-context:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:21.237
+!MESSAGE Could not resolve artifact org.springframework:spring-context:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:21.237
+!MESSAGE Missing org.springframework:spring-context:jar:javadoc:3.0.5.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:49:25.690
+!MESSAGE Could not download sources for org.springframework:spring-aop:3.0.5.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-aop:jar:javadoc:3.0.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing org.springframework:spring-aop:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:25.690
+!MESSAGE Could not resolve artifact org.springframework:spring-aop:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:25.690
+!MESSAGE Missing org.springframework:spring-aop:jar:javadoc:3.0.5.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:49:31.890
+!MESSAGE Could not download sources for org.springframework:spring-expression:3.0.5.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-expression:jar:javadoc:3.0.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing org.springframework:spring-expression:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:31.890
+!MESSAGE Could not resolve artifact org.springframework:spring-expression:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:31.890
+!MESSAGE Missing org.springframework:spring-expression:jar:javadoc:3.0.5.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:49:40.765
+!MESSAGE Could not download sources for org.springframework:spring-web:3.0.5.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-web:jar:javadoc:3.0.5.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing org.springframework:spring-web:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:40.765
+!MESSAGE Could not resolve artifact org.springframework:spring-web:jar:javadoc:3.0.5.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:40.765
+!MESSAGE Missing org.springframework:spring-web:jar:javadoc:3.0.5.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:49:40.848
+!MESSAGE Could not download sources for aopalliance:aopalliance:1.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact aopalliance:aopalliance:jar:javadoc:1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing aopalliance:aopalliance:jar:javadoc:1.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:40.848
+!MESSAGE Could not resolve artifact aopalliance:aopalliance:jar:javadoc:1.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:40.848
+!MESSAGE Missing aopalliance:aopalliance:jar:javadoc:1.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:49:50.579
+!MESSAGE Could not download sources for javax.servlet:servlet-api:2.4
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.servlet:servlet-api:jar:javadoc:2.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing javax.servlet:servlet-api:jar:javadoc:2.4
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:50.579
+!MESSAGE Could not resolve artifact javax.servlet:servlet-api:jar:javadoc:2.4
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:50.579
+!MESSAGE Missing javax.servlet:servlet-api:jar:javadoc:2.4
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:49:59.513
+!MESSAGE Could not download sources for javax.servlet:jsp-api:2.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact javax.servlet:jsp-api:jar:javadoc:2.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing javax.servlet:jsp-api:jar:javadoc:2.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:59.513
+!MESSAGE Could not resolve artifact javax.servlet:jsp-api:jar:javadoc:2.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:49:59.513
+!MESSAGE Missing javax.servlet:jsp-api:jar:javadoc:2.0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-04-01 18:50:26.512
+!MESSAGE Could not download sources for uk.ltd.getahead:dwr:1.1-beta-3
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact uk.ltd.getahead:dwr:jar:javadoc:1.1-beta-3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:244)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:232)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:197)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:153)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:136)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:134)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Missing uk.ltd.getahead:dwr:jar:javadoc:1.1-beta-3
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2016-04-01 18:50:26.512
+!MESSAGE Could not resolve artifact uk.ltd.getahead:dwr:jar:javadoc:1.1-beta-3
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2016-04-01 18:50:26.512
+!MESSAGE Missing uk.ltd.getahead:dwr:jar:javadoc:1.1-beta-3
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:53:52.681
+!MESSAGE import org.apache.* [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2016-04-01 18:54:01.924
+!MESSAGE import org.apache.struts2.act [in <import container> [in [Working copy] HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]]]] does not exist
+
+!ENTRY org.springframework.ide.eclipse.boot 4 0 2016-04-01 19:24:38.941
+!MESSAGE HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]] does not exist
+!STACK 1
+Java Model Exception: Java Model Status [HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:566)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:247)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:579)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:257)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:271)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getTypes(CompilationUnit.java:923)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getAllTypes(CompilationUnit.java:608)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule$ValidationVisitor.visit(MissingConfigurationProcessorRule.java:130)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:200)
+	at org.springframework.ide.eclipse.boot.validation.MissingConfigurationProcessorRule.validate(MissingConfigurationProcessorRule.java:1)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator$ValidationVisitor.visit(AbstractValidator.java:280)
+	at org.springframework.ide.eclipse.core.model.AbstractModelElement.accept(AbstractModelElement.java:131)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:142)
+	at org.springframework.ide.eclipse.core.model.validation.AbstractValidator.validate(AbstractValidator.java:104)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$7.execute(SpringProjectContributionManager.java:260)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager$9.run(SpringProjectContributionManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.execute(SpringProjectContributionManager.java:294)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.runValidator(SpringProjectContributionManager.java:257)
+	at org.springframework.ide.eclipse.core.internal.project.SpringProjectContributionManager.build(SpringProjectContributionManager.java:131)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2016-04-01 19:24:38.941
+!MESSAGE HelloWorldAction.java [in com.droid.web.start.strutsapp.struts02.action [in src/main/java [in struts02]]] does not exist
